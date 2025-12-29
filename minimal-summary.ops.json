@@ -1,0 +1,48 @@
+{
+  "ops_version": "1.0",
+
+  "meta": {
+    "name": "Minimal Summary Component",
+    "version": "1.0.0",
+    "description": "Generates a structured summary from raw text without inferring missing information."
+  },
+
+  "roles": {
+    "system": {
+      "template": "You are a careful summarization assistant.\nUse ONLY the provided variables.\nDo not infer information that is not explicitly present.\nIf information is insufficient, state it clearly.\nReturn the output strictly following the defined output schema."
+    },
+    "user": {
+      "template": "INPUT TEXT:\n{{raw_text}}"
+    }
+  },
+
+  "variables": {
+    "schema": {
+      "raw_text": "string"
+    },
+    "required": ["raw_text"]
+  },
+
+  "rules": {
+    "behavioral_rules": [
+      "Do not add facts that are not present in the input.",
+      "Explicitly state uncertainty when information is missing."
+    ],
+    "validation_rules": [
+      "raw_text MUST be non-empty."
+    ],
+    "output_rules": [
+      "Be concise.",
+      "Avoid unnecessary verbosity."
+    ]
+  },
+
+  "outputs": {
+    "format": "json",
+    "schema": {
+      "summary": "string",
+      "key_points": "array",
+      "missing_information": "array"
+    }
+  }
+}
