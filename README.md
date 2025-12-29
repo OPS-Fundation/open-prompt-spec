@@ -72,7 +72,7 @@ An OPS Prompt Component consists of:
 
 ## Specification
 
-- 📄 Technical Specification: [`ops-1.0.md`](ops-1.0.md)
+- 📄 Technical Specification: [`spec/ops-1.0.md`](spec/ops-1.0.md)
 - 📦 Canonical Schemas: `spec/ops-1.0.json`, `spec/ops-1.0.yaml`
 - ✅ Compliance Checklist: [`compliance/checklist.md`](compliance/checklist.md)
 - 🧩 Minimal Example: [`minimal-summary.ops.jsonl`](minimal-summary.ops.json)
@@ -81,7 +81,7 @@ An OPS Prompt Component consists of:
 
 ## Reference Implementation
 
-[Nova](https://example.com) is a reference implementation of OPS.
+[Nova](https://novaprompt.studio) is a reference implementation of OPS.
 
 Nova provides tooling to:
 - Validate OPS compliance
