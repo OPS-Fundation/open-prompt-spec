@@ -75,7 +75,7 @@ An OPS Prompt Component consists of:
 - 📄 Technical Specification: [`ops-1.0.md`](ops-1.0.md)
 - 📦 Canonical Schemas: `spec/ops-1.0.json`, `spec/ops-1.0.yaml`
 - ✅ Compliance Checklist: [`compliance/checklist.md`](compliance/checklist.md)
-- 🧩 Minimal Example: [`examples/minimal`](examples/minimal)
+- 🧩 Minimal Example: [`minimal-summary.ops.jsonl`](minimal-summary.ops.json)
 
 ---
 
