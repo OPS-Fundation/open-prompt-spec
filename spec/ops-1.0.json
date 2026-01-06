@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://opsfoundation.org/spec/ops-1.0.json",
+  "$id": "https://op-foundation.org/spec/ops-1.0.json",
   "title": "Open Prompt Specification (OPS) v1.0",
   "type": "object",
   "required": [
