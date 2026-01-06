@@ -1,5 +1,5 @@
 $schema: http://json-schema.org/draft-07/schema#
-$id: https://opsfoundation.org/spec/ops-1.0.yaml
+$id: https://op-foundation.org/spec/ops-1.0.yaml
 title: Open Prompt Specification (OPS) v1.0
 type: object
 
